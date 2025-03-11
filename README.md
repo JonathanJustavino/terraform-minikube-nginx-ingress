@@ -1,4 +1,4 @@
-# Terraform Nginx + Ingress
+# Terraform + Kubernetes + Helm + Nginx + Ingress
 
 A terraform configuration that deploys a nginx with ingress
 inside a minikube kubernetes cluster.
@@ -8,7 +8,8 @@ inside a minikube kubernetes cluster.
 1. `terraform init`
 2. `terraform apply`
 3. type `yes`
-4. Nginx server available under http://<MINIKUBE_IP>/:32323
+4. Determine minikube ip by typing `minikube ip`
+5. Nginx server available under http://<MINIKUBE_IP>/:32323
 
 ## Prerequisites
 
