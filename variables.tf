@@ -1,6 +1,6 @@
 variable "ingress-service-name" {
   type    = string
-  default = "service"
+  default = "ingress-service"
 }
 
 variable "ingress" {
