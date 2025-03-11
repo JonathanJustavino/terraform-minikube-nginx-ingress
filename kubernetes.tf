@@ -62,6 +62,7 @@ resource "kubernetes_service" "nginx-service" {
       port        = 9988
       target_port = 9988
       protocol    = "TCP"
+      node_port = 32323
     }
     type = "NodePort"
   }
